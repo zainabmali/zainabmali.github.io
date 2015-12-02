@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+}
+
+.background {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.background-image {
+	height: 100%;
+	width: 100%;
+}
+
+.background-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.topbar-container {
+	width: 100%;
+	background-color: white;
+	height: 60px;
+	position: absolute;
+	top: 0;
+}
+
+.logo {
+	padding-left: 10px;
+}
+
+.topbar-item {
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 13px;
+	font-size: 18px;
+}
+
+.link-without-underline {
+  text-decoration: none;
+  color: black;
+}
+
+.topbar-item:hover {opacity:0.5;}
+
+.center-text {
+	position: absolute;
+	top: 40%;
+	left: 65%;
+}
+
+
+#zainabmali {
+	font-size: 65px;
+}
+
+#latin {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 200;
+}
+

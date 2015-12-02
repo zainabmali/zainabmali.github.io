@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 200;
+}
+
+.topbar-container {
+	width: 100%;
+  background-color: white;
+  height: 60px;
+  position: absolute;
+  top: 0;
+}
+
+.topbar-item {
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+  padding-top: 15px;
+	font-size: 18px;
+	color: red;
+  text-decoration: none;
+}
+
+.topbar-item:hover {opacity:0.5;}
+
+.logo {
+  margin-left: 20px;
+}
+
+.line {
+	width: 100%;
+	height: 3px;
+	background-color: black;
+}
+
+.link-without-underline {
+  text-decoration: none;
+  color: black;
+}
+
+.label {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.toc {
+ width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+}
+
+.item-container {
+  float: left;
+  width: 33%;
+  z-index: 5;
+  position: relative;
+  text-decoration: none;
+}
+
+.circle {
+  background: white;
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 100px;
+  opacity: 0.7;
+}
+
+.circle-number {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  font-size: 30px;
+}
+
+.label {
+  text-align: center;
+}
+
+.people {
+  width: 100%;
+}
+
+.people-description-not-active {
+  opacity: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#people-description {
+  font-size: 15px;
+  color: black;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+.places-description-not-active {
+  opacity: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#places-description {
+  font-size: 15px;
+  color: black;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+.travel-description-not-active {
+  opacity: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#travel-description {
+  font-size: 15px;
+  color: black;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+.grid-title {
+  color: black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.background {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  height: 100%;
+  width: 100%;
+}
+
+.background-image img {
+  height: 100%;
+  width: 100%;
+}
+  
+
+/* masonary */
+
+.grid {
+  position: absolute;
+  margin-left: 25px;
+  
+}
+
+.grid-item {
+ width: 600px; }
+
+.grid-item--width2 { width: 50%; }
