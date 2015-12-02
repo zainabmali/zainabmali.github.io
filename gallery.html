@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zainab M. Ali | Gallery</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/CSS/gallery.css">
+        <link rel="shortcut icon" href="assets/images/logo.png"/>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-1.8.3.min.js">
+        </script> 
+        <script src = "assets/js/gallery.js"></script>
+    </head>
+    <body>
+
+        <!-- Topbar -->
+        <div class = "topbar-container">
+            <div class="topbar-item-container">
+                <div class = "topbar-item">
+                  <a href="index.html" class="link-without-underline"> Home </a> 
+                </div>
+                <div class = "topbar-item"> 
+                  <a href="gallery.html" class="link-without-underline"> Gallery </a>
+                </div>
+                <div class = "topbar-item"> 
+                  <a href="about.html" class="link-without-underline"> About </a> 
+                </div>
+             </div>
+            <div id = "logo">
+              <a href="index.html">
+              <img src = "assets/images/logo.png" height = "60px" width = "60px" > </a>
+            </div>
+        </div>
+        
+     
+<!-- line dividing topbar from bottom text and image -->
+<div id = "line"></div>
+
+<!--Background picture -->
+<div class = "background">
+  <div class = "background-image">
+    <img src="assets/images/background.jpg" width = "100%" >
+  </div> 
+</div>
+
+<!-- three circles on top labeled 1, 2, 3 -->
+<div class="nav"></div>
+  <div class="toc">
+    
+    <div id="people-link" class="item-container">
+        <div class="circle">
+          <div class="circle-number">1</div>
+        </div>
+      <div class="label">People</div> 
+      <div id = "people-description" class = "people-description-not-active"> Everyone is a work of art. Below are some portraits of various people I've met and had the opportunity to photograph.  </div>
+    </div>
+    
+    <div id="places-link" class="item-container">
+      <div id = "places-for-hover">
+        <div class="circle">
+          <div class="circle-number">2</div>
+         </div>
+      <div class="label">California</div> </div>
+      <div id = "places-description" class = "places-description-not-active"> Califonria is home to some of the most beautiful terrain in the world. Below are some images showcasing the diversity of landscapes and architecture in California.  </div>
+    </div>
+    
+    <div id="travel-link" class="item-container">
+      <div class="circle">
+        <div class="circle-number">3</div>
+      </div>
+      <div class="label">Travel</div>
+      <div id = "travel-description" class = "travel-description-not-active"> Below are some images from my travels to India, Yemen, and Dubai. </div>
+    </div>
+   
+    </div>
+  </div>
+
+  <!-- masonry stuff -->
+<script src="js/masonry.pkgd.min.js"></script>
+<div class="grid js-masonry"
+  data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }'> </div>
+
+
+<div class="grid">
+  <div id="people" class="people">
+    <h1 class= "grid-title" > PEOPLE </h1>
+          <img class="grid-item" src = "assets/images/people/austin.jpg">
+          <img class="grid-item" src = "assets/images/people/kristina.jpg">
+          <img class="grid-item" src = "assets/images//people/emily.jpg">
+          <img class="grid-item" src = "assets/images/people/abdul.jpg">
+          <img class="grid-item" src = "assets/images/people/sarrah.jpg">
+          <img class="grid-item" src = "assets/images/people/emily2.jpg">
+  </div>
+
+<!-- places images -->
+  <div class = "places"> 
+    <h1 class = "grid-title"> CALIFORNIA </h1>
+      <img class = "grid-item" src = "assets/images/places/bay bridge.jpg"> 
+      <img class = "grid-item" src = "assets/images/places/galaxy5.jpg">
+      <img class = "grid-item" src = "assets/images/places/ggb.jpg">
+      <img class = "grid-item" src = "assets/images/places/treasureisland.jpg">
+      <img class = "grid-item" src = "assets/images/places/treetunnel.jpg">
+      <img class = "grid-item" src = "assets/images/places/waterfall.jpg">
+      <img class = "grid-item" src = "assets/images/places/tilted.jpg">
+      <img class = "grid-item" src = "assets/images/places/gettycenter.jpg">
+      <img class = "grid-item" src = "assets/images/places/pointreyescliff.jpg">
+      <img class = "grid-item" src = "assets/images/places/treetunnelhorizontal.jpg">
+      <img class = "grid-item" src = "assets/images/places/closeupcorpseflower.jpg">
+      <img class = "grid-item" src = "assets/images/places/corpseflower.jpg">
+  </div>
+
+  <div class = "places"> 
+    <h1 class = "grid-title"> TRAVEL </h1>
+      <img class = "grid-item" src = "assets/images/travel/camels.jpg">
+      <img class = "grid-item" src = "assets/images/travel/indiatemple.jpg">
+      <img class = "grid-item" src = "assets/images/travel/indiatemple3.jpg">
+      <img class = "grid-item" src = "assets/images/travel/indiacows.jpg">
+      <img class = "grid-item" src = "assets/images/travel/indiatemple2.jpg">
+      <img class = "grid-item" src = "assets/images/travel/camels2.jpg">
+  </div>
+
+<!-- this div closes the masonary grid (.grid) --> </div>
+    </body>
+</html>
